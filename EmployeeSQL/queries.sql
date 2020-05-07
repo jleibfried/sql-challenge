@@ -60,3 +60,9 @@ SELECT last_name, count(*) AS number_of_surnames
 FROM employees 
 GROUP BY 1
 ORDER BY number_of_surnames DESC;
+
+-- Epilogue
+SELECT * 
+FROM employees
+WHERE employee_no = 499942;
+-- I'm April Foolsday and I'm from the future?!?!?
